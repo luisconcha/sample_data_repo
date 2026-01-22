@@ -25,7 +25,7 @@ Repositório público de **dados sintéticos (fake)** para estudos, testes e pro
 
 ```python
 df = spark.read.csv(
-    "https://raw.githubusercontent.com/luisconcha/sample-data-hub/main/sales/sales_2021.csv",
+    "https://raw.githubusercontent.com/luisconcha/sample_data_repo/main/sales/sales_2021.csv",
     header=True,
     inferSchema=True
 )
